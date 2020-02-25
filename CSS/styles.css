@@ -1,0 +1,261 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0px;
+    overflow-x: hidden; 
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    background-color: #fdfdfd;
+    margin: 0 0;
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+    
+}
+
+h1{
+    letter-spacing: .7rem;
+    font-family: 'Assistant', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-top: 5%;
+    text-align: center;
+    z-index: 1;
+}
+
+h2{
+    font-family: 'Assistant', sans-serif;
+    font-size: 2rem;
+    font-weight: 550;
+    letter-spacing: .2rem; 
+}
+
+/* NAVIGATION BAR */
+
+.navbar{
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+
+.navbar-brand{
+    margin-left: 5%;
+}
+
+.nav-item{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+    margin: 0 2rem;
+}
+
+/* TITLE SECTION */
+
+#title{
+    background-color: #fdfdfd;
+}
+
+.clean{
+    animation: fadeIn 1.7s forwards;
+    animation-delay: 0.5s;
+    opacity: 0;
+}
+
+.healthy{
+    animation: fadeIn 1.7s forwards;
+    animation-delay: 1.7s;
+    opacity: 0;
+
+}
+
+.eating{
+    animation: fadeIn 1.7s forwards;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+.title-banner{
+    text-align: center;
+}
+
+.banner-img{
+    padding: 0 auto;
+    text-align: center;
+    width: 1300px;
+}
+
+
+.title-p{
+    background-color: #fdfdfd;
+    font-family: 'Noto Serif SC', serif;
+    letter-spacing: .5rem;
+    text-align: center;
+}
+
+@media (max-width: 898px) {
+    .banner-img{
+        width: 800px;
+    }
+}
+
+@media (max-width: 597px){
+    .banner-img{
+        width: 400px;
+    }
+}
+
+/* COMPANY DESCRIPTION */
+
+#company-description{
+    background-color: #dce775;
+}
+
+.description-text{
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1.5rem;
+    font-weight: 550;
+    letter-spacing: .2rem;
+    padding: 10% 8%;
+    text-align: left;
+}
+
+@media (max-width: 991px){
+    .description-text{
+        text-align: center;
+        padding: 10% auto;
+    }
+}
+
+/* CAROUSEL */
+
+.carousel-img{
+    width: 100%;
+}
+
+
+/* APP DOWNLOAD */
+
+.download-buttons{
+    text-align: center;
+    padding-top: 15%;
+}
+.download-row{
+    padding: 10% 8% ;
+    text-align: center;
+}
+
+.iphone{
+    width: 350px;
+}
+
+.download-btn-text{
+    padding: 10% 10%;
+}
+
+.download-heading{
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+
+}
+
+.download-btn{
+    margin: 0 2%;
+}
+
+/* CONTACT SECTION */
+
+#contact-section{
+    background-color: #dce775;
+    font-family: 'Cuprum', sans-serif;
+    padding: 30px;
+    /* width: 100%;
+    height: 300px; */
+}
+
+.contact-text{
+   margin-top: 30px;
+}
+
+.contact-us{
+    padding-top: 30px;
+}
+
+.connect-with-us{
+    padding-top: 30px;
+}
+
+.contact-info{
+    font-size: 20px;
+}
+
+.mailinglist-input{
+    margin-bottom: 20px;
+}
+
+.submit-button{
+    margin-bottom: 10px;
+}
+
+.mailinglist-consent{
+    font-size: 12px;
+}
+
+
+/* SOCIAL MEDIA ICONS */
+
+.social-div{
+    padding-top: 50px;
+}
+
+.social-icons{
+    color: #dce775;
+    margin: 13px 15px;
+}
+
+.fa-facebook:hover{
+    color: #3b5999;
+}
+
+.fa-instagram:hover{
+    color: #e4405f;
+}
+
+.fa-twitter:hover{
+    color: #55acee;
+}
+
+.instagram, .facebook, .twitter{
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    margin:25px 10px 10px;
+    transition: .4s;
+}
+
+.twitter:hover{
+    transform: translate(0, -15px);
+}
+
+.facebook:hover{
+    transform: translate(0, -15px);
+}
+
+.instagram:hover{
+    transform: translate(0, -15px);
+}
