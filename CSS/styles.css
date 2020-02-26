@@ -19,25 +19,32 @@ body{
 
 h1{
     letter-spacing: .7rem;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Noto Serif SC', serif;
     font-size: 3.5rem;
     font-weight: 900;
-    margin-top: 5%;
+    margin-top: 10%;
+    opacity: 0.9;
     text-align: center;
     z-index: 1;
 }
 
 h2{
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Noto Serif SC', serif;
     font-size: 2rem;
     font-weight: 550;
-    letter-spacing: .2rem; 
+    letter-spacing: .2rem;
+    opacity: 0.9; 
+}
+
+h3{
+    opacity: 0.9;
 }
 
 /* NAVIGATION BAR */
 
 .navbar{
     margin-top: 0;
+    margin-bottom: 20px;
     padding-top: 15px;
 }
 
@@ -124,13 +131,26 @@ h2{
     background-color: #dce775;
 }
 
+#company-description h3{
+    font-family: 'Cuprum', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#company-description p{
+    margin-bottom: 40px;
+    padding: 0 40px;
+    text-align: justify;
+}
+
 .description-text{
     font-family: 'Noto Serif SC', serif;
-    font-size: 1.5rem;
-    font-weight: 550;
+    font-size: 1rem;
+    font-weight: 200;
     letter-spacing: .2rem;
     padding: 10% 8%;
-    text-align: left;
+    text-align: center;
 }
 
 @media (max-width: 991px){
@@ -145,6 +165,54 @@ h2{
 .carousel-img{
     width: 100%;
 }
+
+/* ABOUT US */
+
+#about-us{
+    background-image: url(https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-position: center;
+    opacity: .6;
+    height: 500px;
+    color: #fdfdfd;
+    text-align: justify center;}
+
+    #about-us p{
+        font-family: 'Assistant', sans-serif;
+        padding: 0 500px;
+        margin-top: 3rem;
+    }
+
+    #about-us h3{
+        font-family: 'Noto Serif SC', serif;
+        font-size: 3rem;
+        font-weight: 700;
+        padding-top: 6rem;
+    }
+
+    /* WHAT WE OFFER */
+
+    #what-we-offer .container{
+        padding: 7rem 0;
+    }
+
+    .whatWeOffer{
+        font-family: 'Noto Serif SC', serif;
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 4rem;
+    }
+
+    #what-we-offer p{
+        margin-bottom: 4rem;
+        padding: 0 1rem;
+        opacity: 0.75;
+    }
+
+    #what-we-offer .fas{
+        color: #dce775;
+        margin-bottom: 2rem;
+    }
 
 
 /* APP DOWNLOAD */
@@ -223,7 +291,7 @@ h2{
 
 .social-icons{
     color: #dce775;
-    margin: 13px 15px;
+    margin: 15px 15px;
 }
 
 .fa-facebook:hover{
