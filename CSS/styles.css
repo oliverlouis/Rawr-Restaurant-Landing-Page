@@ -1,52 +1,57 @@
-html,body{
+html, body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
     text-align: center;
 }
 
-body{
+body {
     text-align: center;
     background-color: #fdfdfd;
     margin: 0 0;
     padding-top: 2rem;
     width: 100%;
     height: 100%;
-    
 }
 
-h1{
+h1 {
     letter-spacing: .7rem;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Noto Serif SC', serif;
     font-size: 3.5rem;
     font-weight: 900;
-    margin-top: 5%;
+    margin-top: 10%;
+    opacity: 0.9;
     text-align: center;
     z-index: 1;
 }
 
-h2{
-    font-family: 'Assistant', sans-serif;
+h2 {
+    font-family: 'Noto Serif SC', serif;
     font-size: 2rem;
     font-weight: 550;
-    letter-spacing: .2rem; 
+    letter-spacing: .2rem;
+    opacity: 0.9;
+}
+
+h3 {
+    opacity: 0.9;
 }
 
 /* NAVIGATION BAR */
 
-.navbar{
+.navbar {
     margin-top: 0;
+    margin-bottom: 20px;
     padding-top: 15px;
 }
 
-
-.navbar-brand{
+.navbar-brand {
     margin-left: 5%;
 }
 
-.nav-item{
+.nav-item {
     font-family: 'Cuprum', sans-serif;
     font-size: 1.3rem;
     letter-spacing: 0.2rem;
@@ -55,51 +60,48 @@ h2{
 
 /* TITLE SECTION */
 
-#title{
+#title {
     background-color: #fdfdfd;
 }
 
-.clean{
+.clean {
     animation: fadeIn 1.7s forwards;
     animation-delay: 0.5s;
     opacity: 0;
 }
 
-.healthy{
+.healthy {
     animation: fadeIn 1.7s forwards;
     animation-delay: 1.7s;
     opacity: 0;
-
 }
 
-.eating{
+.eating {
     animation: fadeIn 1.7s forwards;
     animation-delay: 3s;
     opacity: 0;
 }
 
-@keyframes fadeIn{
-    from{
+@keyframes fadeIn {
+    from {
         opacity: 0;
     }
-
-    to{
+    to {
         opacity: 1;
     }
 }
 
-.title-banner{
+.title-banner {
     text-align: center;
 }
 
-.banner-img{
+.banner-img {
     padding: 0 auto;
     text-align: center;
     width: 1300px;
 }
 
-
-.title-p{
+.title-p {
     background-color: #fdfdfd;
     font-family: 'Noto Serif SC', serif;
     letter-spacing: .5rem;
@@ -107,34 +109,47 @@ h2{
 }
 
 @media (max-width: 898px) {
-    .banner-img{
+    .banner-img {
         width: 800px;
     }
 }
 
-@media (max-width: 597px){
-    .banner-img{
+@media (max-width: 597px) {
+    .banner-img {
         width: 400px;
     }
 }
 
 /* COMPANY DESCRIPTION */
 
-#company-description{
+#company-description {
     background-color: #dce775;
 }
 
-.description-text{
-    font-family: 'Noto Serif SC', serif;
-    font-size: 1.5rem;
-    font-weight: 550;
-    letter-spacing: .2rem;
-    padding: 10% 8%;
-    text-align: left;
+#company-description h3 {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
-@media (max-width: 991px){
-    .description-text{
+#company-description p {
+    margin-bottom: 40px;
+    padding: 0 40px;
+    text-align: center;
+}
+
+.description-text {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 1rem;
+    font-weight: 200;
+    letter-spacing: .2rem;
+    padding: 10% 8%;
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .description-text {
         text-align: center;
         padding: 10% auto;
     }
@@ -142,43 +157,91 @@ h2{
 
 /* CAROUSEL */
 
-.carousel-img{
+.carousel-img {
     width: 100%;
 }
 
+/* ABOUT US */
+
+#about-us {
+    background-image: url(https://images.unsplash.com/photo-1499028344343-cd173ffc68a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    background-position: center;
+    opacity: .6;
+    height: 500px;
+    color: #fdfdfd;
+    text-align: justify center;
+}
+
+#about-us p {
+    font-family: 'Assistant', sans-serif;
+    padding: 0 500px;
+    margin-top: 3rem;
+}
+
+#about-us h3 {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 6rem;
+}
+
+/* WHAT WE OFFER */
+
+#what-we-offer .container {
+    padding: 7rem 0;
+}
+
+.whatWeOffer {
+    font-family: 'Noto Serif SC', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+#what-we-offer p {
+    margin-bottom: 4rem;
+    padding: 0 1rem;
+    opacity: 0.75;
+}
+
+#what-we-offer .fas {
+    color: #dce775;
+    margin-bottom: 2rem;
+}
 
 /* APP DOWNLOAD */
 
-.download-buttons{
+.download-buttons {
     text-align: center;
     padding-top: 15%;
 }
-.download-row{
-    padding: 10% 8% ;
+
+.download-row {
+    padding: 10% 8%;
     text-align: center;
 }
 
-.iphone{
+.iphone {
     width: 350px;
 }
 
-.download-btn-text{
+.download-btn-text {
     padding: 10% 10%;
 }
 
-.download-heading{
+.download-heading {
     font-size: 2.5rem;
     margin-bottom: 10%;
-
 }
 
-.download-btn{
+.download-btn {
     margin: 0 2%;
 }
 
 /* CONTACT SECTION */
 
-#contact-section{
+#contact-section {
     background-color: #dce775;
     font-family: 'Cuprum', sans-serif;
     padding: 30px;
@@ -186,76 +249,75 @@ h2{
     height: 300px; */
 }
 
-.contact-text{
-   margin-top: 30px;
+.contact-text {
+    margin-top: 30px;
 }
 
-.contact-us{
+.contact-us {
     padding-top: 30px;
 }
 
-.connect-with-us{
+.connect-with-us {
     padding-top: 30px;
 }
 
-.contact-info{
+.contact-info {
     font-size: 20px;
 }
 
-.mailinglist-input{
+.mailinglist-input {
     margin-bottom: 20px;
 }
 
-.submit-button{
+.submit-button {
     margin-bottom: 10px;
 }
 
-.mailinglist-consent{
+.mailinglist-consent {
     font-size: 12px;
 }
 
-
 /* SOCIAL MEDIA ICONS */
 
-.social-div{
+.social-div {
     padding-top: 50px;
 }
 
-.social-icons{
+.social-icons {
     color: #dce775;
-    margin: 13px 15px;
+    margin: 15px 15px;
 }
 
-.fa-facebook:hover{
+.fa-facebook:hover {
     color: #3b5999;
 }
 
-.fa-instagram:hover{
+.fa-instagram:hover {
     color: #e4405f;
 }
 
-.fa-twitter:hover{
+.fa-twitter:hover {
     color: #55acee;
 }
 
-.instagram, .facebook, .twitter{
+.instagram, .facebook, .twitter {
     background-color: white;
     width: 60px;
     height: 60px;
     display: inline-block;
     border-radius: 50%;
-    margin:25px 10px 10px;
+    margin: 25px 10px 10px;
     transition: .4s;
 }
 
-.twitter:hover{
+.twitter:hover {
     transform: translate(0, -15px);
 }
 
-.facebook:hover{
+.facebook:hover {
     transform: translate(0, -15px);
 }
 
-.instagram:hover{
+.instagram:hover {
     transform: translate(0, -15px);
 }
