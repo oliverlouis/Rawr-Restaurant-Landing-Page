@@ -17,18 +17,17 @@ body {
     /* text-align: center; */
     background-color: #fdfdfd;
     margin: 0 0;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     width: 100%;
     height: 100%;
 }
 
 section {
-    padding: 15px;
     width: 100%;
 }
 
 h1 {
-    letter-spacing: .7rem;
+    /* letter-spacing: .7rem; */
     font-family: 'Noto Serif SC', serif;
     font-size: 3.5rem;
     font-weight: 900;
@@ -73,6 +72,7 @@ h3 {
 
 #title {
     background-color: #fdfdfd;
+    padding: 0% 10%;
 }
 
 .clean {
@@ -85,6 +85,14 @@ h3 {
     animation: fadeIn 1.7s forwards;
     animation-delay: 1.7s;
     opacity: 0;
+}
+
+.main-title {
+    width: 100%;
+}
+
+.main-title span {
+    width: 100%;
 }
 
 .eating {
@@ -103,13 +111,12 @@ h3 {
 }
 
 .title-banner {
-    text-align: center;
     width: 100%;
 }
 
 .banner-img {
-    padding: 0 auto;
-    text-align: center;
+    background-position: center;
+    background-size: contain;
     width: 100%;
 }
 
@@ -118,18 +125,6 @@ h3 {
     font-family: 'Noto Serif SC', serif;
     letter-spacing: .5rem;
     text-align: center;
-}
-
-@media (max-width: 898px) {
-    .banner-img {
-        width: 800px;
-    }
-}
-
-@media (max-width: 597px) {
-    .banner-img {
-        width: 400px;
-    }
 }
 
 /* COMPANY DESCRIPTION */
@@ -147,7 +142,7 @@ h3 {
 
 #company-description p {
     margin-bottom: 40px;
-    padding: 0 40px;
+    /* padding: 0 40px; */
     text-align: center;
 }
 
@@ -201,7 +196,8 @@ h3 {
 /* WHAT WE OFFER */
 
 #what-we-offer .container {
-    padding: 7rem 0;
+    width: 100%;
+    padding: 7rem 5%;
 }
 
 .whatWeOffer {
@@ -237,6 +233,7 @@ h3 {
 .iphone {
     width: 350px;
     margin-right: 20px;
+    padding-right: 38px;
 }
 
 .download-btn-text {
