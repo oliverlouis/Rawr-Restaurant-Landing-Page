@@ -1,0 +1,23 @@
+{
+	"name": "rawr-restaurant-landing-page",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"deploy": "gh-pages -d dist"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oliverlouis/Rawr-Restaurant-Landing-Page.git"
+	},
+	"author": "Oliver Louis",
+	"license": "ISC",
+	"homepage": "https//oliverlouis.github.io/Raw-Restaurant-Landing-Page",
+	"bugs": {
+		"url": "https://github.com/oliverlouis/Rawr-Restaurant-Landing-Page/issues"
+	},
+	"homepage": "https://github.com/oliverlouis/Rawr-Restaurant-Landing-Page#readme",
+	"dependencies": {
+		"gh-pages": "^3.1.0"
+	}
+}
